@@ -1,0 +1,53 @@
+.logo{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:fixed;
+    right:0;
+    bottom:10;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: rgb(74, 71, 71);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    animation-name: mainshow;
+    animation-duration: 3.1s;  
+  }
+  li a:hover:not(.active) {
+    color: #2196F3;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
+  @keyframes damove {
+    from {height: 0px;}to {height: 0px;}
+  }
+  .li{
+    position: relative;
+    animation-name: mainshow;
+    animation-duration: 3.1s;  
+    animation-fill-mode: forwards;
+  }
+  @keyframes cov01e {
+    from {height: 0px;}to {height: 380px;}
+  }
+  .logo-m{
+    position: relative;
+    animation-name: cov01e;
+    animation-duration: 1.5s;  
+    animation-fill-mode: forwards;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:fixed;
+    right:10;
+    bottom:0;
+  }
